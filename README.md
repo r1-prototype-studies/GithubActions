@@ -16,3 +16,4 @@
 | \|       |         | Long text in separate lines with new line character    |
 
 # References
+* https://dev.to/pwd9000/github-actions-all-the-shells-581h
