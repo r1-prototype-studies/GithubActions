@@ -13,7 +13,7 @@
 * ``steps`` can be used to refer to other steps by their ids like
    ```
    {{ steps.greet.outputs.time}}
-* 
+* Workflow can be triggered from github events.
 
 # Commands
 
