@@ -13,7 +13,7 @@ jobs:
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
-          echo "${{ github.ACTIONS_RUNNER_DEBUG }}"
+          echo "${{ ACTIONS_RUNNER_DEBUG }}"
       - name: checkout
         uses: actions/checkout@v3
       - name: List Files
