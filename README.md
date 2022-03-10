@@ -6,6 +6,13 @@
 
 # Notes
 * For troubleshooting purpose, add "ACTIONS_RUNNER_DEBUG" with value as "true" and "ACTIONS_STEP_DEBUG" with value as "true" in secrets in github settings.
+* In `uses`, we can use any of the below 
+  * Branch name (not preferred)
+  * Release tag
+  * commit id
+* ``steps`` can be used to refer to other steps by their ids like
+   ```
+   {{ steps.greet.outputs.time}}
 * 
 
 # Commands
@@ -17,3 +24,5 @@
 
 # References
 * https://dev.to/pwd9000/github-actions-all-the-shells-581h
+* https://github.com/actions/hello-world-javascript-action
+* 
