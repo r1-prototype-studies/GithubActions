@@ -15,6 +15,8 @@
    {{ steps.greet.outputs.time}}
 * Workflow can be triggered from github events.
 * Use cron schedule to trigger the workflow at specified time.
+* The minimum schedule of a workflow is every 5 mins.
+
 # Commands
 
 | Commands | Example | Description                                            |
@@ -28,4 +30,5 @@
 * https://github.com/actions/checkout
 * https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 * https://crontab.guru/#*_*_*_*_*
-* 
+* https://docs.github.com/en/rest/reference/repos#create-a-repository-dispatch-event
+ 
