@@ -17,11 +17,12 @@
 * Use cron schedule to trigger the workflow at specified time.
 * The minimum schedule of a workflow is every 5 mins.
 * Branch matching
- ```
+  ```
   - 'feature/*'    # matches feature/feature1 and doesn't match feature/a/fet
   - 'feature/**'   # matches feature/feature1 feature/a/fet
+  ```
 * We cannot have branches and branches ignore at the same time
-* 
+*  
 
 # Commands
 
