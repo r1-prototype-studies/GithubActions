@@ -16,6 +16,12 @@
 * Workflow can be triggered from github events.
 * Use cron schedule to trigger the workflow at specified time.
 * The minimum schedule of a workflow is every 5 mins.
+* Branch matching
+ ```
+  - 'feature/*'    # matches feature/feature1 and doesn't match feature/a/fet
+  - 'feature/**'   # matches feature/feature1 feature/a/fet
+* We cannot have branches and branches ignore at the same time
+* 
 
 # Commands
 
@@ -31,4 +37,6 @@
 * https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 * https://crontab.guru/#*_*_*_*_*
 * https://docs.github.com/en/rest/reference/repos#create-a-repository-dispatch-event
- 
+* https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
+* 
+

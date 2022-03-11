@@ -1,6 +1,11 @@
 name: Actions Workflow
 
 on: 
+  pull_request:
+    branches:
+      - main
+      - 'feature/*' # matches feature/feature1 and doesn't match feature/a/fet
+      - 'feature/**' # matches feature/feature1 feature/a/fet
   repository_dispatch:
     types: [build]
   #schedule: 
